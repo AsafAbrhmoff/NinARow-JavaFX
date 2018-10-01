@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="CurrentDetails" maxHeight="307.0" maxWidth="300.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="264.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFX.CurrentTurnDetailsController">
+   <children>
+      <Label fx:id="CurrentTurn" layoutX="41.0" layoutY="-1.0" prefHeight="30.0" prefWidth="167.0" text="Current Turn Details:">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <HBox layoutX="41.0" layoutY="107.0" prefHeight="17.0" prefWidth="192.0">
+         <children>
+            <Label prefHeight="35.0" prefWidth="105.0" text="Total turns played:" />
+            <Label fx:id="CurrentPlayerTotalTurnsPlayed" prefHeight="17.0" prefWidth="93.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="41.0" layoutY="34.0" prefHeight="17.0" prefWidth="192.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="113.0" text="Player Name:" />
+            <Label fx:id="CurrentPlayerName" prefHeight="17.0" prefWidth="105.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="41.0" layoutY="133.0" prefHeight="17.0" prefWidth="192.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="100.0" text="Color on board:" />
+            <Label fx:id="CurrentPlayerColorOnBoard" prefHeight="17.0" prefWidth="91.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="41.0" layoutY="57.0" prefHeight="17.0" prefWidth="192.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="113.0" text="ID:" />
+            <Label fx:id="CurrentPlayerID" prefHeight="17.0" prefWidth="103.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="41.0" layoutY="184.0" prefHeight="17.0" prefWidth="192.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="107.0" text="Time elapsed:" />
+            <Label fx:id="TimeElapsed" prefHeight="17.0" prefWidth="106.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="41.0" layoutY="210.0" prefHeight="17.0" prefWidth="192.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="113.0" text="Game Mode:" />
+            <Label fx:id="GameMode" prefHeight="17.0" prefWidth="106.0" />
+         </children>
+      </HBox>
+      <Separator layoutY="257.0" prefHeight="6.0" prefWidth="300.0" />
+      <HBox layoutX="41.0" layoutY="235.0" prefHeight="17.0" prefWidth="192.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="118.0" text="Target:" />
+            <Label fx:id="Target" prefHeight="17.0" prefWidth="106.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="41.0" layoutY="83.0" prefHeight="17.0" prefWidth="192.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="113.0" text="Type:" />
+            <Label fx:id="Type" prefHeight="17.0" prefWidth="103.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="41.0" layoutY="160.0" prefHeight="17.0" prefWidth="192.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="113.0" text="Next Player:" />
+            <Label fx:id="NextPlayer" prefHeight="17.0" prefWidth="103.0" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

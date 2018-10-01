@@ -1,0 +1,45 @@
+
+#HistoryList {
+    -fx-border-color: orange;
+    -fx-stroke-width: 6; 
+    -fx-background-color: linear-gradient(#ffb11c, #ffc777);
+}
+
+#QuitGame, #Skin, #Animation, #StartGameButton, #LoadXMLButton, #InformationButton, #PrevButton, #NextButton, #ReplayButton{
+    -fx-background-color: linear-gradient(#ffb11c, #ffc777);
+}
+
+#MessagesContainer:hover, #Skin:hover, #Animation:hover, #StartGameButton:hover, #LoadXMLButton:hover, #InformationButton:hover, #PrevButton:hover, #NextButton:hover, #ReplayButton:hover, #QuitGame:hover{
+    -fx-border-color: linear-gradient(#ffa60c, #ff921d);
+}
+
+
+#CurrentDetails  #CurrentTurn{
+    -fx-font-size: 16px;
+}
+
+#CurrentDetails Label{
+    -fx-text-fill: black;
+    -fx-font-family: sans-serif;
+    -fx-font-size: 11px;
+}
+
+#MessagesContainer{
+    -fx-background-color: #ffc777;
+}
+
+#MessagesContainer Label{
+    -fx-text-fill: #0c0d0c;
+    -fx-font-family: sans-serif;
+    -fx-font-size: 11px;
+}
+
+BorderPane, .scroll-pane > .viewport{
+    -fx-background-color: #b8b8c6;
+}
+
+.scroll-pane:focused {
+    -fx-background-color: -fx-box-border, -fx-control-inner-background;
+    -fx-background-insets: 0, 1;
+    -fx-padding: 1;
+}

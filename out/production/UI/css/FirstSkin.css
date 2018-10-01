@@ -1,0 +1,39 @@
+#HistoryList {
+    -fx-border-color: blue; 
+    -fx-stroke-width: 6; 
+    -fx-background-color: linear-gradient(#7a98ff, #a7c4f7);
+}
+
+#MessagesContainer, #Skin, #Animation, #StartGameButton, #LoadXMLButton, #InformationButton, #PrevButton, #NextButton, #ReplayButton, #QuitGame{
+    -fx-background-color: linear-gradient(#7a98ff, #b0d2ff);
+}
+
+#MessagesContainer:hover, #Skin:hover, #Animation:hover, #StartGameButton:hover, #LoadXMLButton:hover, #InformationButton:hover, #PrevButton:hover, #NextButton:hover, #ReplayButton:hover, #QuitGame:hover{
+    -fx-border-color: linear-gradient(#1b1cff, #3720ff);
+}
+
+#CurrentDetails #CurrentTurn{
+    -fx-font-size: 16px;
+}
+
+#CurrentDetails Label{
+    -fx-text-fill: blue;
+    -fx-font-family: fantasy;
+    -fx-font-size: 11px;
+}
+
+#MessagesContainer Label{
+    -fx-text-fill: white;
+    -fx-font-size: 11px;
+    -fx-font-family: fantasy;
+}
+
+BorderPane, .scroll-pane > .viewport{
+    -fx-background-color: #e0e6de;
+}
+
+.scroll-pane:focused {
+    -fx-background-color: -fx-box-border, -fx-control-inner-background;
+    -fx-background-insets: 0, 1;
+    -fx-padding: 1;
+}
